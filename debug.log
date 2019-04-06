@@ -1,0 +1,341 @@
+2019-04-05 20:34:48,167 - ./debug.log - INFO - Model Type: 2
+2019-04-05 20:36:35,229 - ./debug.log - INFO - Model Type: 2
+2019-04-05 20:36:36,571 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 20:36:36,571 - ./debug.log - INFO - Target: 988
+2019-04-05 20:36:36,571 - ./debug.log - INFO - Flag:   0
+2019-04-05 20:36:36,571 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 20:36:36,571 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 20:36:36,571 - ./debug.log - INFO - 
+Target: 
+train:medical_data/forum_train_0.1.txt
+dev  :medical_data/forum_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 20:36:36,571 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 20:36:36,571 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 20:36:36,572 - ./debug.log - INFO - penalty_ratio: 0.05
+
+2019-04-05 20:36:36,572 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 20:36:39,158 - ./debug.log - INFO - 
+src:    60062
+target: 291
+
+2019-04-05 20:36:39,160 - ./debug.log - INFO - 
+src_batch_size: 19
+target_batch_size: 1
+2019-04-05 20:36:49,817 - ./debug.log - CRITICAL - Model info: shared lstm only, with mmd, model-2
+2019-04-05 20:36:50,298 - ./debug.log - INFO - Epoch : 1/2
+2019-04-05 20:38:54,340 - ./debug.log - CRITICAL - target train acc 86.87  f1  86.71  p 86.96  r  86.46
+2019-04-05 20:38:55,717 - ./debug.log - INFO - dev acc 75.88  f1  75.91  p 75.85  r  75.97
+2019-04-05 20:38:56,488 - ./debug.log - INFO - New best score: 0.7591397849462366
+2019-04-05 20:38:56,488 - ./debug.log - INFO - Epoch : 2/2
+2019-04-05 20:40:57,182 - ./debug.log - CRITICAL - target train acc 92.04  f1  91.95  p 92.29  r  91.61
+2019-04-05 20:40:58,331 - ./debug.log - INFO - dev acc 76.72  f1  76.63  p 76.83  r  76.43
+2019-04-05 20:40:58,908 - ./debug.log - INFO - New best score: 0.7662882224565362
+2019-04-05 20:40:59,000 - ./debug.log - INFO - Testing model over test set
+2019-04-05 20:41:00,481 - ./debug.log - INFO - - test acc 76.72 - f1 76.63
+2019-04-05 21:05:23,665 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:05:25,013 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:05:25,013 - ./debug.log - INFO - Target: 988
+2019-04-05 21:05:25,014 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:05:25,014 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:05:25,014 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:05:25,014 - ./debug.log - INFO - 
+Target: 
+train:medical_data/forum_train_0.1.txt
+dev  :medical_data/forum_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:05:25,014 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:05:25,014 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:05:25,014 - ./debug.log - INFO - penalty_ratio: 0.05
+
+2019-04-05 21:05:25,014 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:05:27,622 - ./debug.log - INFO - 
+src:    60062
+target: 291
+
+2019-04-05 21:05:27,622 - ./debug.log - INFO - 
+src_batch_size: 19
+target_batch_size: 1
+2019-04-05 21:05:37,158 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:05:37,467 - ./debug.log - INFO - Epoch : 1/2
+2019-04-05 21:07:39,165 - ./debug.log - CRITICAL - target train acc 85.66  f1  85.50  p 85.28  r  85.71
+2019-04-05 21:07:40,431 - ./debug.log - INFO - dev acc 75.17  f1  75.18  p 74.79  r  75.58
+2019-04-05 21:07:41,240 - ./debug.log - INFO - New best score: 0.7518489684702218
+2019-04-05 21:07:41,241 - ./debug.log - INFO - Epoch : 2/2
+2019-04-05 21:09:42,701 - ./debug.log - CRITICAL - target train acc 88.36  f1  88.13  p 88.35  r  87.92
+2019-04-05 21:09:43,919 - ./debug.log - INFO - dev acc 74.42  f1  74.28  p 74.29  r  74.27
+2019-04-05 21:09:44,022 - ./debug.log - INFO - Testing model over test set
+2019-04-05 21:09:45,536 - ./debug.log - INFO - - test acc 75.17 - f1 75.18
+2019-04-05 21:25:37,314 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:25:40,007 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:25:40,007 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:25:40,008 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:25:40,008 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:25:40,008 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:25:40,008 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:25:40,008 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:25:40,008 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:25:40,008 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:25:40,008 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:25:45,190 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:25:45,190 - ./debug.log - INFO - 
+src_batch_size: 10
+target_batch_size: 10
+2019-04-05 21:25:55,108 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:26:29,420 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:26:32,103 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:26:32,103 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:26:32,104 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:26:32,104 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:26:32,104 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:26:32,104 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:26:32,104 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:26:32,104 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:26:32,104 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:26:32,104 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:26:37,329 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:26:37,329 - ./debug.log - INFO - 
+src_batch_size: 10
+target_batch_size: 10
+2019-04-05 21:26:44,627 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:26:45,079 - ./debug.log - INFO - Epoch : 1/2
+2019-04-05 21:35:38,468 - ./debug.log - CRITICAL - target train acc 91.75  f1  91.97  p 91.61  r  92.33
+2019-04-05 21:35:48,561 - ./debug.log - INFO - dev acc 90.97  f1  91.20  p 90.83  r  91.57
+2019-04-05 21:35:49,245 - ./debug.log - INFO - New best score: 0.91200460051492
+2019-04-05 21:35:49,245 - ./debug.log - INFO - Epoch : 2/2
+2019-04-05 21:36:57,577 - ./debug.log - INFO - Testing model over test set
+2019-04-05 21:37:07,669 - ./debug.log - INFO - - test acc 90.97 - f1 91.20
+2019-04-05 21:42:20,973 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:42:23,618 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:42:23,618 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:42:23,618 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:42:23,618 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:42:23,619 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:42:23,619 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:42:23,619 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:42:23,619 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:42:23,619 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:42:23,619 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:42:28,740 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:42:28,740 - ./debug.log - INFO - 
+src_batch_size: 25
+target_batch_size: 25
+2019-04-05 21:42:38,633 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:42:38,901 - ./debug.log - INFO - Epoch : 1/2
+2019-04-05 21:47:43,050 - ./debug.log - INFO - Testing model over test set
+2019-04-05 21:47:51,930 - ./debug.log - INFO - - test acc 90.97 - f1 91.20
+2019-04-05 21:52:51,098 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:52:53,740 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:52:53,740 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:52:53,740 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:52:53,741 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:52:53,741 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:52:53,741 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:52:53,741 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:52:53,741 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:52:53,741 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:52:53,741 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:52:58,891 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:52:58,892 - ./debug.log - INFO - 
+src_batch_size: 25
+target_batch_size: 25
+2019-04-05 21:53:08,789 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:53:09,025 - ./debug.log - INFO - Epoch : 1/1
+2019-04-05 21:55:43,506 - ./debug.log - INFO - Testing model over test set
+2019-04-05 21:55:52,352 - ./debug.log - INFO - - test acc 90.97 - f1 91.20
+2019-04-05 21:57:30,083 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:57:32,761 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:57:32,761 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:57:32,761 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:57:32,761 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:57:32,761 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:57:32,761 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:57:32,762 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:57:32,762 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:57:32,762 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:57:32,762 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:57:37,913 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:57:37,913 - ./debug.log - INFO - 
+src_batch_size: 25
+target_batch_size: 25
+2019-04-05 21:57:45,935 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:57:46,153 - ./debug.log - INFO - Epoch : 1/1
+2019-04-05 21:57:49,793 - ./debug.log - INFO - Testing model over test set
+2019-04-05 21:57:58,487 - ./debug.log - INFO - - test acc 90.97 - f1 91.20
+2019-04-05 21:58:39,555 - ./debug.log - INFO - Model Type: 1
+2019-04-05 21:58:42,283 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 21:58:42,283 - ./debug.log - INFO - Target: 4638
+2019-04-05 21:58:42,283 - ./debug.log - INFO - Flag:   0
+2019-04-05 21:58:42,283 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 21:58:42,283 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 21:58:42,284 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 21:58:42,284 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 21:58:42,284 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 21:58:42,284 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 21:58:42,284 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 21:58:47,410 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 21:58:47,410 - ./debug.log - INFO - 
+src_batch_size: 25
+target_batch_size: 25
+2019-04-05 21:58:55,838 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 21:58:56,055 - ./debug.log - INFO - Epoch : 1/1
+2019-04-05 21:59:01,459 - ./debug.log - INFO - Testing model over test set
+2019-04-05 22:00:06,887 - ./debug.log - INFO - Model Type: 1
+2019-04-05 22:00:09,680 - ./debug.log - INFO - Src:    4638  4
+2019-04-05 22:00:09,680 - ./debug.log - INFO - Target: 4638
+2019-04-05 22:00:09,680 - ./debug.log - INFO - Flag:   0
+2019-04-05 22:00:09,681 - ./debug.log - INFO - Src embed trainable: True
+2019-04-05 22:00:09,681 - ./debug.log - INFO - 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :./data/pku_dev.txt
+
+
+2019-04-05 22:00:09,681 - ./debug.log - INFO - 
+Target: 
+train:./data/pku_train.txt
+dev  :./data/pku_dev.txt
+test :medical_data/forum_test.txt
+
+2019-04-05 22:00:09,681 - ./debug.log - INFO - MSG:   No msg.
+
+2019-04-05 22:00:09,681 - ./debug.log - INFO - lr_ratio: 1.0
+
+2019-04-05 22:00:09,681 - ./debug.log - INFO - penalty_ratio: 0
+
+2019-04-05 22:00:09,682 - ./debug.log - INFO - penalty: mmd
+
+2019-04-05 22:00:15,034 - ./debug.log - INFO - 
+src:    60062
+target: 60062
+
+2019-04-05 22:00:15,034 - ./debug.log - INFO - 
+src_batch_size: 25
+target_batch_size: 25
+2019-04-05 22:00:23,938 - ./debug.log - INFO - Model info: parallel training, only with mmd, model-1
+2019-04-05 22:00:24,129 - ./debug.log - INFO - Epoch : 1/1
+2019-04-05 22:06:29,345 - ./debug.log - CRITICAL - target train acc 92.81  f1  93.00  p 92.70  r  93.30
+2019-04-05 22:06:37,824 - ./debug.log - INFO - dev acc 91.91  f1  92.09  p 91.78  r  92.41
+2019-04-05 22:06:38,492 - ./debug.log - INFO - New best score: 0.9209490652145796
+2019-04-05 22:06:38,594 - ./debug.log - INFO - Testing model over test set
+2019-04-05 22:06:39,974 - ./debug.log - INFO - - test acc 74.82 - f1 75.21

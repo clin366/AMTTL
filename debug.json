@@ -1,0 +1,8 @@
+{
+	"word": "./.cache/vocab_8.pickle",
+	"tag": "./.cache/tag_8.pickle",
+	"target_word": "./.cache/target_vocab_8.pickle",
+	"nword": 4638,
+	"ntag": 4,
+	"ntarword": 4638
+}
